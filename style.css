@@ -1,39 +1,142 @@
-.image1{
-    width: 22px;
+body{
+    padding: 30px 150px;
+    width: 75%;
 }
 
-.image2{
-    width: 14px;
+.logo{
+width: 50px;
+}
+#site-title{
+    font-family: 'Yellowtail', cursive;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1px;
+}
+.best{
+    font-size: 15px;
+}
+hr.style1{
+    background: repeating-linear-gradient(
+        45deg,
+        white,
+        white 2px,
+        grey 2px,
+        grey 4px
+    );
+    height: 15px;
+}
+.chocoTitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 1px;
+}
+.chocopizza{
+    width: 100;
+    clear: both;
+    margin-top: 25px;
+}
+article h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 43px;
 }
 
-.image3{
-    width: 14px;
+article p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-wrap: break-word;
+    text-indent: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
-
-.image4{
-    width: 14px;
+div.navcontents{
+    display: inline-block;
 }
-
-.image5{
-    width: 14px;
+div.navcontents h2 {
+    font-variant: small-caps;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
 }
-
-.image6{
-    width: 14px;
+div.navcontents h3{
+    font-variant: small-caps;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
 }
-
-.image7{
-    width: 14px;
+div.logos{
+float: right;
+padding: 1px;
 }
-
-.image8{
-    width: 14px;
+.ingredients-div{
+    background-image: url(img/list-bg.png);
+    display: flex;
+    margin: 20px 15px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    box-shadow: 0px 5px 5px slategray;
 }
-
-.image9{
-    width: 14px;
+.ingredients1{
+    list-style-type: none;
+    font-family: 'Patrick Hand';
+    font-size: 21px;
+    display: inline-block;
 }
-
-.td{
-text-align: right;
+.ingredients2{
+    list-style-type: none;
+    font-family: 'Patrick Hand';
+    font-size: 21px;
+    display: inline-block;
+}
+div.author{
+    display: inline-block;
+    width: 72%;
+    margin-bottom: 60px;
+}
+.h3{
+font-weight: bold;
+font-size: 24px;
+padding-left: 20px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.vanP{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.vanP2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    line-height: 1px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.share-recipe{
+    float: right;
+    background-color: #a35323;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    padding: 10px 35px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    color: darkgray;
+}
+.hr2{
+    width: 45%;
+}
+.bottom-logo>*{
+    display: inline-flex;
+}
+.flex-contaner>*{
+    display: inline-block;
 }
